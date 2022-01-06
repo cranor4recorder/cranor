@@ -5,6 +5,7 @@
     src: url(./assets/LeagueGothic-1.601/static/OTF/LeagueGothic-Regular.otf) format(OTF);
 }
 html, body {
+    background-color: #f3ededec;
     font-family: League-Gothic, sans-serif; /*Specify your font name here*/
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
