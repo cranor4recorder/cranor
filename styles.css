@@ -6,7 +6,7 @@
 }
 html, body {
     background-color: #eeeeeeec;
-    font-family: League-Gothic, sans-serif; /*Specify your font name here*/
+    font-family: League-Gothic, sans-serif; /* Specify your font name here */
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     height: auto;
@@ -60,6 +60,10 @@ li{
 
 .team{
     background-color: #e6e6e6ec !important; 
-    border: 2px solid #21409a;
+    border: 4px solid #21409a;
     padding: 0;
+}
+
+h2 {
+    color: #21409a
 }
