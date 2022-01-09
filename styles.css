@@ -72,13 +72,9 @@ h2 {
 
 /* intro */
 .intro{
-    /* background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp'); */
-    background-image: url('./assets/Banner.jpg');
-    background-size: cover;
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left;
+    padding: 0px; 
+    overflow:hidden; 
+    height:60vh;
 }
 
 .donate{
@@ -86,11 +82,22 @@ h2 {
 }
 
 .banner2{
-    /* background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp'); */
-    background-image: url('./assets/Banner2.jpg');
-    background-size: cover;
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    padding: 0px; 
+    overflow:hidden; 
+    height:60vh;
 }
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .intro {
+        padding: 0px; 
+        overflow:hidden; 
+        height:25vh;
+    }
+
+    .banner2{
+        padding: 0px; 
+        overflow:hidden; 
+        height:25vh;
+    }
+  }
