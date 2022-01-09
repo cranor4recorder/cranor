@@ -74,10 +74,11 @@ h2 {
 .intro{
     /* background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp'); */
     background-image: url('./assets/Banner.jpg');
+    background-size: cover;
     height: 60vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: left;
 }
 
 .donate{
@@ -87,6 +88,7 @@ h2 {
 .banner2{
     /* background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp'); */
     background-image: url('./assets/Banner2.jpg');
+    background-size: cover;
     height: 60vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
