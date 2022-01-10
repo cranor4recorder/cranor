@@ -87,6 +87,12 @@ h2 {
     height:60vh;
 }
 
+/* bio styles */
+.bio {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
 /* mobile */
 @media only screen and (max-width: 600px) {
     .intro {
