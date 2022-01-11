@@ -37,10 +37,10 @@ html, body {
     padding: 0!important; 
 }
 
-.card {
+/* .card {
     margin:auto!important;
     height: 38vh !important;
-}
+} */
 
 li{
     list-style-type: none;
